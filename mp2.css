@@ -5,7 +5,7 @@
 * { box-sizing: border-box; }
 
 body {
-  background: #dfe4ea;
+  background: #F6EDD9;
   color: #2d3436;
   font-family: 'PT Serif';
   -webkit-font-smoothing: antialiased;
@@ -89,5 +89,14 @@ body,
 
 .content__bio hr {
   width: 50%;
+}
+
+.profile-social-links li{
+  list-style: none;
+  margin: auto;
+    padding: 20px;
+    float: left;
+    width: 33.3%;
+    text-align: center;
 }
 
