@@ -3,7 +3,11 @@ h2,h4 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
   }
-  p { color: #ECF3F4;
+  p { color: #456461;
+      font-family: "BlinkMacSystemFont";
+      font-size:18px;
+      letter-spacing: 0.5px;
+      
       
   }
   
@@ -31,7 +35,7 @@ h2,h4 {
   }
   
   .navbar {
-    background-color: rgba(255, 255, 255, .90)
+    background-color: #ECF3F4
   }
   
   .navbar-toggle {
@@ -58,7 +62,7 @@ h2,h4 {
   
   .portfolio {
     margin: 0;
-    padding: 100px 20px;
+    padding: 50px 20px;
     height:350px;
     width: 100%;
     background-color: #5fcf80;
@@ -81,10 +85,10 @@ h2,h4 {
   
   .about {
     margin: 0;
-    padding: 150px 20px;
+    padding: 20px;
     height:550px;
     width: 100%;
-    background-color: #262F38;
+    background-color: #ECF3F4;
   }
   
   .content {
@@ -101,7 +105,7 @@ h2,h4 {
   }
   
   .section {
-      padding-top: 70px;
+      padding-top: 20px;
   }
   
   .section-box {
@@ -109,6 +113,8 @@ h2,h4 {
   }
   
   .section-title {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: 0.75px;
       font-size: 40px;
       font-weight: 300;
       line-height: 1.2;
@@ -144,8 +150,9 @@ h2,h4 {
   
   .grid .grid-item,
   .grid .grid-sizer {
-      width: 33.33%;
+      width: 150px;
   }
+
   
   .grid .grid-sizer {
       height: 0;
@@ -161,7 +168,7 @@ h2,h4 {
   .grid .grid-box {
       width: 100%;
       height: 0;
-      padding-top: 95%;
+      padding-top: 50%;
       position: relative;
       overflow: hidden;
       background: rgba(0, 0, 0, 0.15);
@@ -832,7 +839,7 @@ h2,h4 {
   button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color: #729CA2;
+    background-color: #262F38;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -889,7 +896,7 @@ h2,h4 {
     text-align: center;
     color: #252525;
     height: 140px;
-    background: #729CA2;
+    background: #262F38;
     padding-top: 50px;
   }
   
@@ -942,7 +949,7 @@ h2,h4 {
     }
     
     .fa-4x {
-      color: #729CA2;
+      color: #262F38;
     }
 }
   
